@@ -1,0 +1,391 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-top: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height:70%;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow:   -7px -7px 20px 0px #35a7e0b7, -4px -4px 5px 0px #35a7e0a4, 7px 7px 20px 0px rgba(0, 0, 0, 0.356), 4px 4px 5px 0px rgba(0, 0, 0, 0.336);
+    }
+    input{
+        border: 1px solid black;
+    }
+    .middle{
+        padding-left: 5%;
+    }
+    .middle input{
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    .middle input[type=text],[type=password]{
+        width: 70%;
+    }
+    input[type = submit]{
+        width: auto;
+        margin-top: 20px;
+        margin-left: 50%;
+        margin-right: 10%;
+        font-weight: 500;
+        background: transparent;
+        padding: 8px 20px;
+        border: 2px solid #3B5998;
+        transition: all 0.3s ease;
+    }
+    .containerlogo{
+        background-color: #3B5998;
+        width: 100%;
+        border-radius: 9px;
+    }
+    .containerlogo img{
+        width: 90%;
+    }
+  }
+  /******************** When screen > 1240px****************************/
+@media only screen and (min-width:1240px){
+    input:not([type=submit]){
+        border: 1px solid black;
+        border-radius: 2px
+    }
+    .containerlogo{
+        background-color: #3B5998;
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;  
+        box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.603);
+    }
+    .containerlogo img{
+        margin-left: 20px;
+    }
+    .container{
+        margin-top: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 27%;
+        height: 25rem;
+        border: 1px solid black;
+        border-radius: 13px;
+        box-shadow:   -7px -7px 20px 0px #35a7e0b7, -4px -4px 5px 0px #35a7e0a4, 7px 7px 20px 0px rgba(0, 0, 0, 0.356), 4px 4px 5px 0px rgba(0, 0, 0, 0.336);
+    }
+    h3{
+        margin-top: 30px;
+    }
+    .middle{
+        padding-left: 10%;
+    }
+    .middle input{
+        margin-left: 20%;
+        margin-bottom: 10px;
+    }
+    .middle input[type=text],[type=password]{
+        width: 50%;
+    }
+    input[type = submit]:not(.chpassbutton){
+        width: auto;
+        margin-top: 20px;
+        margin-left: 70%;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        padding: 8px 20px;
+        border: 2px solid #3B5998;
+        transition: all 0.3s ease;
+    }
+    input[type = submit]:hover:not(.chpassbutton){
+        cursor: pointer;
+        box-shadow:   -7px -7px 20px 0px #35a7e08e, -4px -4px 5px 0px #35a7e08e, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    }
+    header{
+        background-color: #345cb3ea;
+        margin-left: 3%;
+        width: 90%;
+        padding: 1%;
+        border: 1px solid #345cb3ea;
+        box-shadow: 4px 9px 9px 0px rgba(53, 167, 224, 0.527);
+    }
+    header img{
+        width: 12%;
+        cursor: pointer;
+    }
+    header .navbar{
+        margin-top: 1rem;
+        color:white;
+        width: 20%;
+        float: right;
+        border: 1px solid white;
+        padding: 0.7%;
+    }
+    a{
+        text-decoration: none;
+    }
+    .navelement a{
+        float: left;
+        color: white;
+        padding: 2.2%;
+        cursor: pointer;
+        transition: all 0.9s ease;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navelement a:hover{
+        transition: all 0.3s ease;
+        box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 0.527);
+    }
+    .navbar .logout a{
+        color: white;
+        text-decoration: none;
+        padding-top: 1%;
+        float: right;
+        transition: all 0.9s ease;
+    }
+    .navbar .logout:hover{
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .main{
+        flex-wrap: wrap;
+        display: flex;   
+        flex-direction: row;                           
+        margin-top: 20px;
+        margin-left: 24%;
+        margin-right: 5%;
+        width: auto;
+        height: auto;
+        padding: 0.7%;
+        border: 1px solid #345cb3ea;
+    }
+    .left{
+        padding-bottom: 2%;
+        padding-top: 10px;
+        margin-top: 20px;
+        float: left;
+        width: 20%;
+        margin-left: 3%;
+        border: 1px solid #345cb3ea;
+    }
+    /* Code from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+    #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 40px; /* Place the button at the bottom of the page */
+        right: 20px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: #345cb3ea; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 100px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+        transition: all 0.1s ease;
+    }
+    #myBtn:hover {
+        background-color: #00aaff8e; /* Add a dark-grey background on hover */
+        color: black;
+        padding: 20px;
+        right: 15px; /* Place the button 30px from the right */
+        bottom: 35px; /* Place the button at the bottom of the page */
+        transition: all 0.2s ease;
+    } 
+    /* End */
+    .left span{
+        font-weight: bolder;
+        padding-left: 5%;
+        cursor: default;
+    }
+    ul{
+        margin-top: 5px;
+    }
+    .left ul li{
+        list-style: none;
+    }
+    .left a{
+        color: black;
+    }
+    .loc{
+        margin-bottom: 15px;
+    }
+    .left ul li a{
+        color: black;
+        padding-left: 7%;
+        transition: all o.3s ease;
+    }
+    .left ul li a:hover{
+        color: #094ad6;
+        transition: all o.3s ease;
+    }
+    .main span{
+        cursor: default;
+    }
+    .main .title{
+        margin-top: 0;
+        color: #ffffff ;
+        font-size: 2rem;
+        cursor: default;
+        font-weight: bolder;
+        padding: 0;
+        padding-left: 10px;
+        margin-bottom: 0px;
+        width: 98%;
+        height: 45px;
+        background-color: #79a1f8;
+    }
+    .sheet{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .biodata tr td a{
+        font-style: none;
+        color: black;
+        transition: all o.3s ease;
+    }
+    .biodata tr td a:hover{
+        font-style: none;
+        color: black;
+        color: #094ad6;
+        transition: all o.3s ease;
+    }
+    .sheetc{
+        background-color: #bacef8;
+        padding: 10px;
+    }
+    footer{
+        bottom: 0;
+        position: fixed;
+    }
+    .biodata tbody tr .sec{
+        font-weight: bolder;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.514) ;
+        border-top: 1px solid rgba(0, 0, 0, 0.514);
+        cursor: default;
+    }
+    .biodata{
+        margin-top: 10px;
+    }
+    .sec{
+        padding-left: 20px;
+        background-color: #bacef8;
+        padding-right: 20px;
+    }
+    .sec2{
+        padding-left: 20px;
+        background-color: #0ba331;
+        padding-right: 20px;
+    }
+    .biotext{
+        border-top: 1px solid rgba(0, 0, 0, 0.514);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+    }
+    .label{
+        margin-bottom: 10px;
+        background-color: rgba(70, 152, 230, 0.671);
+        width: 90%;
+        padding-left: 5px;
+    }
+    .style_chpass{
+        margin-bottom: 10px;
+        background-color: rgba(70, 152, 230, 0.671);
+        width: 20rem;
+        padding-left: 5px;
+        text-align: center;
+        margin-left: 60%;
+        margin-bottom: 10px;
+    }
+    #secnotas{
+        padding-left: 4px;
+        background-color: #bacef8;
+        padding-right: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        cursor: default;
+    }
+    
+    #notastext{
+        border: 1px solid rgba(0, 0, 0, 0.514);
+        background-color: #fff9de;
+        transition: all .05s ease;
+        text-align: center;
+    }
+    #notastext:hover{
+        transition: all .05s ease;
+        background-color: #dddcd7 ;
+        cursor: default;
+    }
+    .sec select{
+        border: 0;
+        font-style: none;
+        font-weight: normal;
+        font-size: 16px;
+        background-color: #bacef8;
+        transition: all 0.3s ease;
+    }
+    .sec select:hover{
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background-color: #fff;
+    }
+    
+    .biodatas{
+        background-color: #bacef8 ;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left: 30%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .biodatas tr td a{
+        font-style: none;
+        color: black;
+        transition: all o.3s ease;
+    }
+    .biodatas tr td a:hover{
+        font-style: none;
+        color: black;
+        color: #094ad6;
+        transition: all o.3s ease;
+    }
+    .biodatas tbody tr .sec{
+        font-weight: bolder;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.514) ;
+        border-top: 1px solid rgba(0, 0, 0, 0.514);
+        cursor: default;
+    }
+    .biodatas{
+        margin-top: 10px;
+    }
+    .biodatas td label{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .biodatas td input{
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .chpassbutton{
+        width: auto;
+        margin-top: 10px;
+        font-weight: 500;
+        background: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        padding: 4px 10px;
+        border: 2px solid #3B5998;
+        transition: all 0.3s ease;
+    }
+    .chpassbutton:hover{
+        cursor: pointer;
+        box-shadow:   -7px -7px 20px 0px #35a7e08e, -4px -4px 5px 0px #35a7e08e, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    }
+}

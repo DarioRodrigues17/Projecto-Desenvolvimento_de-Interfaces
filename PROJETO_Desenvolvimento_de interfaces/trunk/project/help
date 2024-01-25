@@ -1,0 +1,96 @@
+#35a8e0
+                <tr>
+                    <table class="sheet">
+                        <thead><p class="title"><span class="iconify" data-icon="akar-icons:two-line-vertical" style="color: rgba(255, 255, 255, 0.918);margin-left: 0;" data-width="26"></span>Informação do Utilizador</p></thead> 
+                        <tr>
+                            <table class="biodata">
+                                <thead> 
+                                    <tr>
+                                        <td style="text-align: center;" colspan="4">Dados Académicos</td>
+                                        <td style="text-align: center;" colspan="2">Dados Biográficos</td>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td class="biotext">Número </td>
+                                    <td class="sec">XXXXX</td>
+                                    <td></td>
+                                    <td class ="sec"rowspan="2"><img height="150px" src="img/userpic.png" alt=""></td>
+                                    <td class="biotext">Cartão de Cidadão</td>
+                                    <td class="sec">XXXXXXXXX XXXX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Nome </td>
+                                    <td class="sec">Rui Pedro Correia da Silva</td>
+                                    <td rowspan="10"></td>
+                                    <td class="biotext">Data Emissão</td>
+                                    <td class="sec">XXXX-XX-XX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Telemóvel </td>
+                                    <td class="sec">XXXXXXXXXXX</td>
+                                    <td></td>
+                                    <td class="biotext">Nº Identif. Fiscal</td>
+                                    <td class="sec">XXXXXXXXXX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Email Institucional </td>
+                                    <td class="sec">XXXXXX@ismai.pt</td>
+                                    <td></td>
+                                    <td class="biotext">Nº Seg. Social</td>
+                                    <td class="sec">XXXXXXXXXXXX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Email Pessoal </td>
+                                    <td class="sec">XXXXXXXXXX@gmail.com</td>
+                                    <td></td>
+                                    <td class="biotext">Nº Utente Saúde</td>
+                                    <td class="sec">XXXXXXXXXXXX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Faculdade/Escola </td>
+                                    <td class="sec">Universidade da Maia</td>
+                                    <td></td>
+                                    <td class="biotext">Estado Civil</td>
+                                    <td class="sec">Solteiro</td>
+                                </tr>                            
+                                <tr>
+                                    <td class="biotext">Curso</td>
+                                    <td class="sec">Informática(1ºCiclo)</td>
+                                    <td></td>
+                                    <td class="biotext">Sexo</td>
+                                    <td class="sec">Masculino</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Plano de Estudos</td>
+                                    <td class="sec">1º Ciclo 2020</td>
+                                    <td></td>
+                                    <td class="biotext">Data Nascimento</td>
+                                    <td class="sec">XXXX-XX-XX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Ramo</td>
+                                    <td class="sec">(Nenhum)</td>
+                                    <td></td>
+                                    <td class="biotext">Morada</td>
+                                    <td class="sec">XXX XXXXXXXXXXX XX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Regime</td>
+                                    <td class="sec">Diurno</td>
+                                    <td></td>
+                                    <td class="biotext">Código Postal</td>
+                                    <td class="sec">XXXX-XXX XXX XXXX</td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Tipo de Acessos</td>
+                                    <td class="sec">Normal</td>
+                                    <td></td>
+                                    <td class="biotext">Nacionalidade/Naturalidade</td>
+                                    <td class="sec">Portugal/Portugal</td>
+                                </tr>
+                            </table>
+                        </tr>
+                    </table>
+                </tr>
+                ---------------------
+                                      

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <title>Área Privada</title>
+</head>
+    <header>
+       <a href="homepage.html"><img src="img/logo_ismai_site_logo_ismai_small.png" alt="Logo"></a>
+        <div class="navbar">
+            <div class="navelement">
+                <span><a href="homepage.html">Home</a></span>
+                <span class="active"><a href="user.html">Utilizador</a></span>
+                <span><a href="secretaria.html">Secretaria</a></span>
+            </div>
+            <div class="logout">
+                <a href="index.html"><span><span class="iconify" float="right" data-icon="grommet-icons:logout" data-width="20"></span></span></a> 
+            </div> 
+        </div>
+    </header>
+<body>
+    <div class="left">
+        <span class="loc"><a href="homepage.html">Homepage </a><span class="iconify" data-icon="ant-design:caret-right-filled" data-width="13"></span> Utilizador<span class="iconify" data-icon="ant-design:caret-right-filled" data-width="13"></span>Notas</span><br>
+        <br>
+        <span> <b>Utilizador</b></span>
+        <ul>
+            <li>Nome: Rui Silva</li>
+            <li>Curso Inscrito: 2º Ano Informática</li>
+            <li>E-mail Institucional: A038072@ismai.pt</li>
+            <li><img width="20%" src="img/userpic.png" alt=""></li>
+        </ul>
+        <br>
+        <span>Utilizador</span> 
+        <ul>
+            <li><a href="ementa.html">Ementa</a></li>
+            <li><a href="calendario.html">Calendário</a></li>
+            <li><a href="schedule.html">Horário</a></li>  
+        <li><a href="docs.html">Documentos</a></li>  
+        <li><a href="grades.html">Notas</a></li>  
+        <li><a href="info.html">Dados do Utilizador</a></li>  
+        <li><a href="inscricoes.html">Consultar Inscrições</a></li>  
+        </ul>
+        <!-- <span>Serviços</span>
+        <ul>
+            <li><a href="chpass.html">Alterar Palavra-Passe</a></li>
+            <li><a href="park.html">Acesso ao Parque</a></li>
+            <li><a href="ident.html">Cartão de Identificação</a></li>
+            <li><a href="pagamentos.html">Pagamentos por MB</a></li>  
+        </ul> -->
+    </div> 
+    <div class="main">
+        <table class="content">
+            <tbody>
+                <tr>
+                    <table class="sheet">
+                        <thead><p class="title"><span class="iconify" data-icon="akar-icons:two-line-vertical" style="color: rgba(255, 255, 255, 0.918);margin-left: 0;" data-width="26"></span>Notas</p></thead> 
+                        <tr>
+                            <table class="biodata">
+                                <tbody> 
+                                    <tr>
+                                        <td style="text-align: center;" class="sec" colspan="23">
+                                            Ano Letivo
+                                            <select name="Ano Letivo" id="">
+                                                <option value="20212022">2020/2021</option>
+                                                <option value="20212022" selected>2021/2022</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;" class="sec" rowspan="2">Ano </td>
+                                        <td style="text-align: center;" class="sec" colspan="2">Unidade Curricular</td>
+                                        <td style="text-align: center;" class="sec" colspan="10">Av. Contínua</td>
+                                        <td style="text-align: center;" class="sec" colspan="3">Ep. Normal</td>
+                                        <td style="text-align: center;" class="sec" colspan="3">Ep. Recurso</td>
+                                        <td style="text-align: center;" class="sec" colspan="3">Av. Especial</td>
+                                        <td style="text-align: center;" class="sec" rowspan="2">Nota Final</td>
+                                    </tr>
+                                
+                                <tr>
+                                    <td id="secnotas">Código</td>
+                                    <td id="secnotas" style="text-align: center;">Nome</td>
+                                    <td id="secnotas">M1</td>
+                                    <td id="secnotas">M2</td>
+                                    <td id="secnotas">M3</td>
+                                    <td id="secnotas">M4</td>
+                                    <td id="secnotas">M5</td>
+                                    <td id="secnotas">M6</td>
+                                    <td id="secnotas">M7</td>
+                                    <td id="secnotas">M8</td>          
+                                    <td id="secnotas">M9</td>                                    
+                                    <td id="secnotas">M10</td>   
+                                    <td id="secnotas" style="text-align: center;">PT</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PO</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PP</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PT</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PO</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PP</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PT</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PO</td>                                    
+                                    <td id="secnotas" style="text-align: center;">PP</td>                                                                      
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;" class="sec" colspan="23">1º Semestre</td>
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14571</td>
+                                    <td id="secnotas">Complementos de Base de Dados</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14569</td>
+                                    <td id="secnotas">Investigação Operacional</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14572</td>
+                                    <td id="secnotas">Comunicação de Dados e Redes I</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14570</td>
+                                    <td id="secnotas">Desenvolvimento de Interfaces</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14573</td>
+                                    <td id="secnotas">Desenvolvimento Web I</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14568</td>
+                                    <td id="secnotas">Programação Orientada a Objetos</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;" class="sec" colspan="23">2º Semestre</td>
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14574</td>
+                                    <td id="secnotas">Comunicação de Dados e Redes II</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14577</td>
+                                    <td id="secnotas">Data Mining e Big Data</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14578</td>
+                                    <td id="secnotas">Desenvolvimento Web II</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14575</td>
+                                    <td id="secnotas">Engenharia de Software</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14576</td>
+                                    <td id="secnotas">Segurança de Redes e Sistemas</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                                <tr>
+                                    <td id="secnotas" style="text-align: center;">2</td>
+                                    <td id="secnotas">14579</td>
+                                    <td id="secnotas">Sistemas Inteligentes</td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>
+                                    <td id="notastext"></td>          
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>   
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>                                    
+                                    <td id="notastext"></td>      
+                                </tr>
+                            </tbody>
+                            
+                            </table>
+                        </tr>
+                    </table>
+                </tr>
+            </tbody>
+        </table> 
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="iconify" data-icon="cil:chevron-top" data-width="40" data-height="40"></span></button> 
+    <script>
+    //Script from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        mybutton.style.display = "block";
+    } else {  
+        mybutton.style.display = "none";
+    }
+    }
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    } 
+    </script>
+    <!--<footer>Copyright© Group5</footer>-->
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <title>Área Privada</title>
+</head>
+    <header>
+       <a href="homepage.html"><img src="img/logo_ismai_site_logo_ismai_small.png" alt="Logo"></a>
+        <div class="navbar">
+            <div class="navelement">
+                <span><a href="homepage.html">Home</a></span>
+                <span class="active"><a href="user.html">Utilizador</a></span>
+                <span><a href="secretaria.html">Secretaria</a></span>
+            </div>
+            <div class="logout">
+                <a href="index.html"><span><span class="iconify" float="right" data-icon="grommet-icons:logout" data-width="20"></span></span></a> 
+            </div> 
+        </div>
+    </header>
+<body>
+    <div class="left">
+        <span class="loc"><a href="homepage.html">Homepage </a><span class="iconify" data-icon="ant-design:caret-right-filled" data-width="13"></span> <a href="user.html"> Utilizador</a> <span class="iconify" data-icon="ant-design:caret-right-filled" data-width="13"></span>
+        Calendário</span><br>
+        <br>
+        <span> <b>Utilizador</b></span>
+        <ul>
+            <li>Nome: Rui Silva</li>
+            <li>Curso Inscrito: 2º Ano Informática</li>
+            <li>E-mail Institucional: A038072@ismai.pt</li>
+            <li><img width="20%" src="img/userpic.png" alt=""></li>
+        </ul>
+        <br>
+        <span>Utilizador</span> 
+        <ul>
+            <li><a href="ementa.html">Ementa</a></li>
+            <li><a href="calendario.html">Calendário</a></li> 
+            <li><a href="schedule.html">Horário</a></li>  
+            <li><a href="docs.html">Documentos</a></li>  
+            <li><a href="grades.html">Notas</a></li>  
+            <li><a href="info.html">Dados do Utilizador</a></li>  
+            <li><a href="inscricoes.html">Consultar Inscrições</a></li>  
+        </ul>
+        <!-- <span>Serviços</span>
+        <ul>
+            <li><a href="chpass.html">Alterar Palavra-Passe</a></li>
+            <li><a href="park.html">Acesso ao Parque</a></li>
+            <li><a href="ident.html">Cartão de Identificação</a></li>
+            <li><a href="pagamentos.html">Pagamentos por MB</a></li>  
+        </ul> -->
+    </div> 
+    <div class="main">
+        <table class="content">
+            <tbody>
+                <tr>
+                    <table class="sheet">
+                        <thead><p class="title"><span class="iconify" data-icon="akar-icons:two-line-vertical" style="color: rgba(255, 255, 255, 0.918);margin-left: 0;" data-width="26"></span>Calendário</p></thead> 
+                        <tr>
+                            <table class="biodata">
+                                <tr>
+                                    <td class="biotext">Instituição </td>
+                                    <td class="sec" >Universidade da Maia</td>
+                                    <td></td>                                   
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Ano lectivo </td>
+                                    <td class="sec">
+                                        <select name="Ano Letivo" id="">
+                                            <option value="20212022">2020/2021</option>
+                                            <option value="20212022" selected> 2021/2022</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="biotext">Semana </td>
+                                    <td class="sec"> 
+                                        <table border='1'  bordercolor='#bacef8' cellspacing='0' cellpadding='0' align=center>
+                                            <tr>
+                                                <td>
+                                                    <table cellspacing='0' cellpadding='0' align=center width='100' border='1'>
+                                                        <tr>
+                                                            <td  align=center bgcolor='#bacef8'><font size='3' face='Tahoma'> 
+                                                                <a href='html_calendar.php?prm=11&chm=-1' rel="nofollow">
+                                                                    </a></font> </td><td colspan=5 align=center bgcolor='#bacef8'><font size='3' face='Tahoma' style="color:white">Dezembro 2021 </font> </td>
+                                                                    <td  align=center bgcolor='#bacef8'><font size='3' face='Tahoma'> <a href='html_calendar.php?prm=11&chm=1' rel="nofollow">></a>  </font>
+                                                                    </td></tr>
+                                                                    <tr>
+                                                                        <td><font size='3' face='Tahoma' style="color:white"><b>seg</b></font></td>
+                                                                        <td><font size='3' face='Tahoma' style="color:white"><b>ter</b></font></td>
+                                                                        <td><font size='3' face='Tahoma' style="color:white"><b>qua</b></font></td>
+                                                                        <td><font size='3' face='Tahoma' style="color:white"><b>qui</b></font></td>
+                                                                        <td><font size='3' face='Tahoma' style="color:white"><b>sex</b></font></td>
+                                                                        <td><font size='3' face='Tahoma' style="color:white"><b>sáb</b></font></td>
+                                                                        <td><font size='3' face='Tahoma' style="color:white"><b>dom</b></font></td>
+                                                                    </tr><tr><td> </td>                          
+                                            <td valign=top><font size='2' face='Tahoma'>29  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>30  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>1 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>2  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>3  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>4  
+                                            <br>
+                                             </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>5  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>6
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>7  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>8  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>9 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>10 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>11
+                                            <br>
+                                             </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>12  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>13
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>14 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>15 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>16 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>17 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>18  
+                                            <br>
+                                             </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>19
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>20 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>21  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>22  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>23  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>24  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>25 
+                                            <br>
+                                             </font></td></tr><tr><td valign=top><font size='2' face='Tahoma'>26  
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>27 
+                                            <br>
+                                             </font></td><td valign=top><font size='2' face='Tahoma'>28  
+                                            <br>
+                                            </font></td><td valign=top><font size='2' face='Tahoma'>29  
+                                            <br>
+                                            </font></td><td valign=top><font size='2' face='Tahoma'>30
+                                            <br>
+                                            </font></td><td valign=top><font size='2' face='Tahoma'>1
+                                            <br>
+                                            </font></td><td valign=top><font sizse='2' face='Tahoma'>2
+                                            <br>
+                                            </table>
+                                </td>
+                                </tr>
+                            </table>
+                        </tr>
+                    </table>
+                </tr>
+            </tbody>
+        </table>  
+
+            </table>  
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="iconify" data-icon="cil:chevron-top" data-width="40" data-height="40"></span></button> 
+    <script>
+    //Script from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        mybutton.style.display = "block";
+    } else {  
+        mybutton.style.display = "none";
+    }
+    }
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    } 
+    </script>
+    <!--<footer>Copyright© Group5</footer>-->
+</body>
+</html>
